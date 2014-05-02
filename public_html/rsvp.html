@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>Gustavo y Yari - RSVP</title>
+        <link href='http://fonts.googleapis.com/css?family=Lobster|Lato:400,700' rel='stylesheet' type='text/css'>
+        <!--[if lte IE 8]>
+            <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+        <![endif]-->          
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="js/libs/jquery-1.9.0/jquery.min.js" type="text/javascript"></script>
+        <script src="js/libs/jqueryui-1.10.0/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="js/libs/jquery.animate-colors-min.js" type="text/javascript"></script>
+        <script src="js/site.js" type="text/javascript"></script>
+        <script src="js/libs/jquery-validation-1.11.1/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="js/libs/jquery-validation-1.11.1/validation-custom.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="menu">
+                <a href="welcome.html" class="menu">bienvenidos</a>
+                <a href="bigday.html" class="menu">el gran d&iacute;a</a>
+                <a href="hotel.html" class="menu">hotel</a>
+                <a href="index.html" class="menu-center"><img src="images/main.png" /></a>
+                <a href="photos.html" class="menu">fotos</a>
+                <a href="gifts.html" class="menu">regalos</a>
+                <a href="rsvp.html" class="menu">rsvp</a>
+            </div>
+        </div>
+        <div id="content">
+            <form id="rsvp" name="rsvp">
+                <table>
+                    <tr>
+                        <td>
+                            NOMBRE:
+                        </td>
+                        <td class="separator" colspan="3">
+                            <input name="name" type="text" class="required text_entry" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            E-MAIL:
+                        </td>
+                        <td class="separator" colspan="3">
+                            <input name="email" type="text" class="required email text_entry" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Voy a asistir a la boda:
+                        </td>
+                        <td class="separator radio-button-td">
+                            SI<input  name="attending" type="radio" value="1" checked/><br/>
+                            NO<input  name="attending" type="radio" value="0"/> 
+                        </td>
+                        <td class="separator align-right">
+                            ¿Cu&aacute;ntas personas?:
+                        </td>
+                        <td class="separator" style="width: 25%">
+                            <input name="guests" type="text" class="required number text_entry"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            COMENTARIOS:
+                        </td>
+                        <td class="separator" colspan="3">
+                            <textarea name="comments" cols="39" rows="8" maxlength="800" class="text_entry"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td class="separator" colspan="3">
+                            <input type="submit" value="Enviar" class="sub_button" id="rsvp-confirm" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <div id="rsvp-msg">
+
+            </div>
+        </div>
+    </body>
+</html>

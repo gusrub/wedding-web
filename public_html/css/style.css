@@ -1,0 +1,354 @@
+root { 
+    display: block;
+}
+
+html {
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+body {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background: url("../images/background.jpg") repeat; 
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato-Black', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+
+}
+#content {
+	width: 1100px;
+	margin: 0 auto 20px auto;
+	padding: 20px 0;
+	text-align: center;
+}
+#header {
+	width: 100%;
+	min-width: 1100px;
+	height: 300px;
+	margin: 0 auto;
+	background: green;
+	text-align: center;
+	background: url("../images/menu-bg.png") repeat-x;
+	
+}
+#menu {
+	width: 1100px;
+	height: 300px;
+	margin: 0 auto;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+#menu a {
+	text-decoration: none;
+}
+.clear-b {
+	clear: both;
+}
+.clear-l {
+	clear: left;
+}
+.clear-r {
+	clear: right;
+}
+a.menu {
+    background: #e2d8ba;
+	margin: 125px 0;
+	padding: 0;
+	display: block;
+	height: 50px;
+	width: 125px;
+	text-transform: uppercase;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+a.menu {
+	color: #3D311B;
+}
+/*
+a.menu:hover {
+	
+    background: #3D311B;
+	color: #fff;
+}
+*/	
+a.menu-center {
+	display: block;
+	width: 350px;
+	height: 300px;
+	float: left;
+	text-decoration: none;
+}
+img {
+	border: 0;
+}
+#countdown {
+    width: 302px;
+    height: 120px;
+    line-height: 110px;
+    background-image:url("../images/etiqueta.png");
+    transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -moz-transform:rotate(7deg);
+    -webkit-transform:rotate(7deg);
+    -o-transform:rotate(7deg);
+    font-family: 'Lobster', cursive;
+    font-size: 220%;
+    color: #e2d8ba;
+    text-align: center;
+    float: right;
+    text-shadow: 2px 2px 2px #666;
+    margin-right: 100px;
+}
+#countdown-container {
+    top: 250px;
+    width: 100%;
+    min-width: 1100px;
+    position: absolute;
+}
+#counter {
+	color: #fff;
+}
+#collage {
+    position: relative;
+    width: 1100px;
+    min-height: 340px;
+}
+
+#welcome {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+}
+
+#welcome #izq {
+    float: left;
+}
+
+#welcome #der {
+    float: right;
+}
+
+#welcome p {
+    font-size: 13px;
+    line-height: 21px;
+    margin: 0 -5px 0 -5px;
+}
+
+#bigday {
+    width: 785px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+#bigday p {
+    text-align: justify;
+}
+
+#bigday img {
+    width: 320px;
+}
+
+#misa {
+    padding-right: 71px;
+    border-right: 1px solid #fff;
+}
+
+#misa h2 {
+    text-align: right;
+}
+
+#misa h4 {
+    text-align: justify;
+}
+
+
+#recepcion {
+    padding-left: 72px;
+}
+
+#recepcion h2 {
+    text-align: right;
+}
+
+#recepcion h4 {
+    text-align: justify;
+}
+
+#hotel{
+    width: 468px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: left;
+}
+
+#hotel img {
+    width: 468px;
+    height: 185px;
+}
+
+#hotel p {
+    line-height: 22px;
+}
+
+#hotel a {
+    text-decoration: none;
+    color: white;
+}
+
+#page-separation {
+    width: 100%; 
+    border-top: 1px solid #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#gifts {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: left;
+}
+
+#gifts img {
+    width: 250px;
+    height: 60px;
+}
+
+#macys {
+    width: 250px;
+    float: left;
+    border-right: 1px solid #fff;
+    padding-right: 49px;
+}
+#target {
+    width: 250px;
+    float: left;
+    padding-left: 50px;
+}
+
+#rsvp, #rsvp-msg {
+    background-color: #F1EBDD;
+    padding-top: 30px;
+    width: 716px;
+    color: #3E2D24;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+#rsvp-msg {
+    display: none;
+}
+
+#rsvp table {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+#rsvp table td:first-child {
+    min-width: 218px;
+    text-align: right;
+}
+
+#rsvp table td {
+    padding: 10px 10px 11px 10px;
+}
+
+#rsvp table td input[type=text] {
+    width: 100%;
+    background-color: #F1EBDD;
+    border: none;
+    color: #3E2D24;
+    font-weight: bold;
+    font-size: 16px;
+    height: 26px;
+}
+
+#rsvp table td textarea {
+    background-color: #F1EBDD;
+    border: none;
+    color: #3E2D24;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#rsvp table tr:last-child {
+    text-align: right;
+}
+
+#rsvp table tr:last-child td {
+    padding: 5px;
+}
+
+input.sub_button {
+    background: #BEB79A;
+    color: #fff;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    width: 80px;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+    border: 0;
+}
+input:hover.sub_button {
+    cursor: pointer;
+    border: 0;
+}
+input:hover.text_entry {
+    background: #fff !important;
+}
+textarea:hover.text_entry {
+    background: #fff !important;
+}
+textarea {
+    overflow: auto;
+}
+.bienvenidos-img {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bigday-divs {
+    float: left;
+    width: 320px;
+}
+
+.radio-button-td {
+    width: 60px;
+}
+.radio {
+    background: #3E2D24;
+}
+.separator {
+    border-top: 1px solid #BEB79A;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.error {
+    font-size: 12px;
+    color: #BEB79A;
+    font-style: italic;
+}
